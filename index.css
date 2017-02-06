@@ -87,7 +87,6 @@ h3 {
 }
 
 /* welcome msg styles */
-
 .welcome-msg {
     color: #FFFFFF;
     font-size: 40pt;
@@ -169,4 +168,19 @@ h3 {
 
 .immersive p {
     padding-left: 10px;
+}
+
+/* footer styles */
+#footer {
+    background-color: #93A6A5;
+    color:#FFFFFF;
+    font-weight: 100;
+    letter-spacing: 2px;
+    overflow: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
 }
