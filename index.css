@@ -3,7 +3,7 @@ html, body {
     background-color: #505050;
     color: #95989A;
     font-family: 'Lato', sans-serif;
-    font-size: 12pt;
+    font-size: 10pt;
     font-weight: 400;
     padding: 0;
     margin: auto;
@@ -14,8 +14,37 @@ html, body {
     padding: 0 4%;
 }
 
-/* banner styles */
+h1, h2, h3 {
+    color: #FFFFFF;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;  
+    margin: 0;
+}
 
+h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-shadow: 1.3px 0.8px #93B1AF;
+}
+
+h2 {
+    background-color: rgba(147,166,165, 0.30);
+    font-size: 30px;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+h3 {
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-align: right;
+}
+
+/* banner styles */
 #home {
     height: 100%;
     overflow: auto;
@@ -27,17 +56,17 @@ html, body {
 }
 
 /* navigation styles */
-
 #navigation {
     font-size: 16pt;
     font-weight: 300;
     font-variant: small-caps;
-    color: #E3E3E3;
+    color: #FFFFFF;
     padding: 30px 0;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
+    z-index: 1;
 }
 
 .nav-title {
@@ -52,7 +81,7 @@ html, body {
 }
 
 .nav-links a:link, .nav-links a:visited, .nav-links a:active {
-    color: #E3E3E3;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 10px;
 }
@@ -64,9 +93,13 @@ html, body {
     font-size: 40pt;
     font-variant: small-caps;
 	position: absolute;
-    top: 47%;
+    top: 50%;
+    left: 50%;
     text-align: center;
 	width: 100%;
+    height: 100px;
+    margin-left: -50%;
+    margin-top: -65px;
 }
 
 .welcome-msg p {
@@ -82,6 +115,58 @@ html, body {
 
 .wel-above {
     border-bottom: none !important;
-    font-size: 10pt;
+    font-size: 14pt;
     display: block !important;
+    letter-spacing: 6px;
+    margin-bottom: -12px !important;
+}
+
+.welcome-button {
+    background-color: #93A6A5;
+    font-size: 12pt;
+    width: 120px;
+    margin: 0 auto;
+    padding: 8px;
+    padding-top: 6px;
+}
+
+.welcome-msg a:link, .welcome-msg a:visited, .welcome-msg a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button-border {
+    border: 1px solid #93A6A5;
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 1px 0px;
+    width: 138px;
+}
+
+/* background styles */
+#background {
+    margin-top: 28px;
+}
+
+#background p {
+    margin-top: 0;
+    text-align: justify;
+}
+
+.secondlife {
+    float:left;
+    width: 50%;
+}
+
+.secondlife p {
+    padding-right: 10px;
+}
+
+.immersive {
+    overflow: hidden;
+    width: 50%;
+}
+
+.immersive p {
+    padding-left: 10px;
 }
