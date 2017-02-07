@@ -17,6 +17,7 @@ html, body {
 .inner-container {
     width: 90%;
     margin: 0 auto;
+    height: 100%;
 }
 
 h1, h2, h3 {
@@ -162,7 +163,7 @@ h3 {
 /* welcome msg styles */
 .welcome-msg {
     color: #FFFFFF;
-    font-size: 30pt;
+    font-size: 35pt;
     text-transform: uppercase;
 	position: absolute;
     top: 50%;
@@ -194,6 +195,7 @@ h3 {
     display: block !important;
     letter-spacing: 6px;
     font-family: sans-serif;
+    margin-bottom: 0;
 }
 
 .welcome-button {
@@ -227,37 +229,37 @@ h3 {
 }
 
 @media (min-width: 657px) {
-    #background {
+    #background, #discover {
         padding-top: 105px;
     }
 }
 
 @media (max-width: 656px) {
-    #background {
+    #background, #discover {
         padding-top: 155px;
     }
 }
 
 @media (max-width: 370px) {
-    #background {
+    #background, #discover {
         padding-top: 180px;
     } 
 }
 
 @media (max-width: 289px) {
-    #background {
+    #background, #discover {
         padding-top: 210px;
     } 
 }
 
 @media (max-width: 229px) {
-    #background {
+    #background, #discover {
         padding-top: 250px;
     } 
 }
 
 @media (max-width: 206px) {
-    #background {
+    #background, #discover {
         padding-top: 290px;
     } 
 }
@@ -283,6 +285,39 @@ h3 {
 
 .immersive p {
     padding-left: 10px;
+}
+
+/* discover styles */
+#discover {
+    background-color: #596163;
+    padding-bottom: 30px;
+    overflow: auto;
+    height: 100%;
+}
+
+#discover h2 {
+    background-color: rgba(147,166,165, 0.0);
+    text-align: left;
+}
+
+.discover-one, .discover-two {
+    background-color: black;
+    width: 49%;
+    height: 49%;
+}
+
+.discover-one {
+    background: url('img/discover-1.jpeg');
+    float: left;
+    clear: left;
+}
+
+.discover-two {
+    background: url('img/discover-2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    clear: right;
 }
 
 /* footer styles */
