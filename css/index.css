@@ -162,8 +162,8 @@ h3 {
 /* welcome msg styles */
 .welcome-msg {
     color: #FFFFFF;
-    font-size: 40pt;
-    font-variant: small-caps;
+    font-size: 30pt;
+    text-transform: uppercase;
 	position: absolute;
     top: 50%;
     left: 50%;
@@ -174,26 +174,31 @@ h3 {
     margin-top: -65px;
 }
 
-.welcome-msg p {
+.wel-title {
     border-bottom: 4px solid #FFFFFF;
     margin: 0;
-    display: inline;
+    display: inline-block;
 }
 
 .wel-sub {
     color: #C4C4C4;
     padding-left: 20%;
+    border-bottom: 4px solid #FFFFFF;
+    margin: 0;
+    display: inline-block;
 }
 
 .wel-above {
     border-bottom: none !important;
-    font-size: 14pt;
+    font-size: 10pt;
     display: block !important;
     letter-spacing: 6px;
-    margin-bottom: -12px !important;
+    font-family: sans-serif;
 }
 
 .welcome-button {
+    text-transform: none;
+    font-variant: small-caps;
     background-color: #93A6A5;
     font-size: 12pt;
     width: 120px;
@@ -217,8 +222,44 @@ h3 {
 
 /* background styles */
 #background {
-    padding-top: 105px;
     background-color: #505050;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 657px) {
+    #background {
+        padding-top: 105px;
+    }
+}
+
+@media (max-width: 656px) {
+    #background {
+        padding-top: 155px;
+    }
+}
+
+@media (max-width: 370px) {
+    #background {
+        padding-top: 180px;
+    } 
+}
+
+@media (max-width: 289px) {
+    #background {
+        padding-top: 210px;
+    } 
+}
+
+@media (max-width: 229px) {
+    #background {
+        padding-top: 250px;
+    } 
+}
+
+@media (max-width: 206px) {
+    #background {
+        padding-top: 290px;
+    } 
 }
 
 #background p {
