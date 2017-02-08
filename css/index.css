@@ -470,6 +470,10 @@ h2 {
     overflow: auto;
 }
 
+.met {
+    text-align: left !important;
+}
+
 /* contact styles */
 
 
