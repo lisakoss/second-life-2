@@ -306,6 +306,14 @@ h2 {
     width: 100%;
 }
 
+.img-text {
+    background-color: rgba(140,198,209, 0.75);
+    color: #FFFFFF;
+    position: relative;
+    bottom: -300px;
+    padding: 5px 10px;
+}
+
 .discover-one {
     background: url('img/discover-1.jpeg');
     background-size: cover;
@@ -336,9 +344,6 @@ h2 {
 }
 
 /* about styles */
-#team {
-
-}
 
 #team h2 {
     background-color: transparent;
