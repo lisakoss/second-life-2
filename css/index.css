@@ -1,5 +1,6 @@
 /* general */
 html, body {
+    background-color: #505050;
     color: #95989A;
     font-family: 'Lato', sans-serif;
     font-size: 10pt;
@@ -7,7 +8,7 @@ html, body {
     padding: 0;
     margin: auto;
     height: 100%;
-    width: 100%;    
+    width: 100%;   
 }
 
 .container {
@@ -24,7 +25,6 @@ h1, h2, h3 {
     color: #FFFFFF;    
     font-family: 'Conv_hn 35 thin';
     font-weight: 100;  
-    margin: 0;
 }
 
 h1 {
@@ -45,26 +45,18 @@ h2 {
     width: 100%;
 }
 
-h3 {
-    font-size: 24px;
-    letter-spacing: 4px;
-    text-align: right;
-}
-
 /* banner styles */
-
 #home {
 	width: 100%;
 	height: 100%;
 	min-height: 300px;
 	position: relative;
 	overflow: hidden;
-	z-index: -100;
 }
 
 .home-image {
 	background-image: url('img/index_img.jpeg');
-    position: 50% 50%;
+    position: 50% 50% !important;
     background-size: cover;
     background-repeat: no-repeat;
 	height: 100%;
@@ -224,42 +216,48 @@ h3 {
 
 /* background styles */
 #background {
-    background-color: #505050;
     padding-bottom: 30px;
 }
 
+#background h3 {
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin: 0;
+    text-align: right;
+}
+
 @media (min-width: 657px) {
-    #background, #discover {
+    #background, #team {
         padding-top: 105px;
     }
 }
 
 @media (max-width: 656px) {
-    #background, #discover {
+    #background, #team {
         padding-top: 155px;
     }
 }
 
 @media (max-width: 370px) {
-    #background, #discover {
+    #background, #team {
         padding-top: 180px;
     } 
 }
 
 @media (max-width: 289px) {
-    #background, #discover {
+    #background, #team {
         padding-top: 210px;
     } 
 }
 
 @media (max-width: 229px) {
-    #background, #discover {
+    #background, #team {
         padding-top: 250px;
     } 
 }
 
 @media (max-width: 206px) {
-    #background, #discover {
+    #background, #team {
         padding-top: 290px;
     } 
 }
@@ -289,35 +287,114 @@ h3 {
 
 /* discover styles */
 #discover {
-    background-color: #596163;
+    background-color: rgba(140,198,209, 0.15);
     padding-bottom: 30px;
     overflow: auto;
-    height: 100%;
 }
 
 #discover h2 {
-    background-color: rgba(147,166,165, 0.0);
+    background-color: transparent;
     text-align: left;
+    margin-bottom: 0;
 }
 
 .discover-one, .discover-two {
     background-color: black;
-    width: 49%;
-    height: 49%;
+    height: 325px;
+    margin: 10px;
+    max-width: 100%;
+    width: 100%;
 }
 
 .discover-one {
     background: url('img/discover-1.jpeg');
-    float: left;
-    clear: left;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .discover-two {
     background: url('img/discover-2.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    float: right;
-    clear: right;
+}
+
+.discover-column {
+	flex-basis: 100%;
+	display: flex;
+}
+
+@media (min-width: 900px) {
+	.discover-column {
+		flex-basis: 50%;
+	}
+}
+
+@media (min-width: 1200px) {
+    .discover-column {
+		flex-basis: 50%;
+	}
+}
+
+/* about styles */
+#team {
+    padding-bottom: 30px;
+}
+
+#team h2 {
+    background-color: transparent;
+    margin-bottom: -4px;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#team h3 {
+    font-size: 8pt;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#team p {
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+
+.alt-color1 {
+    color: #8CC6D1;
+}
+
+.alt-color2 {
+    color: #93B1AF; 
+}
+
+.item {
+    margin: 0 auto;
+}
+
+.cat-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-column {
+	flex-basis: 100%;
+	display: flex;
+}
+
+@media (min-width: 768px) {
+	.about-column {
+		flex-basis: 50%;
+	}
+}
+
+@media (min-width: 1200px) {
+    .about-column {
+		flex-basis:33.333333%;
+	}
 }
 
 /* footer styles */
