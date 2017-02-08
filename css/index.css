@@ -365,8 +365,10 @@ h2 {
 
 #team p {
     margin: 0;
-    padding: 4px;
-    text-align: center;
+    padding: 8px;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
 }
 
 .alt-color1 {
@@ -379,6 +381,7 @@ h2 {
 
 .about-img {
     border-radius: 50%;
+    width: 180px;
 }
 
 .item {
