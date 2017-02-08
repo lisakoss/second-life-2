@@ -337,12 +337,13 @@ h2 {
 
 /* about styles */
 #team {
-    padding-bottom: 30px;
+
 }
 
 #team h2 {
     background-color: transparent;
     margin-bottom: -4px;
+    margin-top: 0;
     padding-bottom: 0;
     text-align: center;
     text-transform: capitalize;
@@ -371,8 +372,14 @@ h2 {
     color: #93B1AF; 
 }
 
+.about-img {
+    border-radius: 50%;
+}
+
 .item {
     margin: 0 auto;
+    margin-bottom: 70px;
+    text-align: center;
 }
 
 .cat-flex {
