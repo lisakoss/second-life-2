@@ -21,7 +21,7 @@ html, body {
     height: 100%;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #FFFFFF;    
     font-family: 'Conv_hn 35 thin';
     font-weight: 100;  
@@ -227,38 +227,38 @@ h2 {
 }
 
 @media (min-width: 657px) {
-    #background, #team {
-        padding-top: 105px;
+    #background, #team, #story, #tasks, #contact {
+        padding-top: 85px;
     }
 }
 
 @media (max-width: 656px) {
-    #background, #team {
-        padding-top: 155px;
+    #background, #team, #story, #tasks, #contact {
+        padding-top: 135px;
     }
 }
 
 @media (max-width: 370px) {
-    #background, #team {
-        padding-top: 180px;
+    #background, #team, #story, #tasks, #contact {
+        padding-top: 160px;
     } 
 }
 
 @media (max-width: 289px) {
-    #background, #team {
-        padding-top: 210px;
+    #background, #team, #story, #tasks, #contact {
+        padding-top: 190px;
     } 
 }
 
 @media (max-width: 229px) {
-    #background, #team {
-        padding-top: 250px;
+    #background, #team, #story, #tasks, #contact {
+        padding-top: 230px;
     } 
 }
 
 @media (max-width: 206px) {
-    #background, #team {
-        padding-top: 290px;
+    #background, #team, #story, #tasks, #contact {
+        padding-top: 270px;
     } 
 }
 
@@ -288,7 +288,7 @@ h2 {
 /* discover styles */
 #discover {
     background-color: rgba(140,198,209, 0.15);
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     overflow: auto;
 }
 
@@ -343,9 +343,29 @@ h2 {
 	}
 }
 
-/* about styles */
+/* quote styles */
+#quote {
+    background-color: #93A6A5;
+    color: #FFFFFF;
+    font-family: 'Conv_hn 35 thin', sans-serif;
+    font-size: 24pt;
+    font-weight: 100;  
+    text-align: center;
+    padding: 50px 30px;
+}
 
-#team h2 {
+#quote p {
+    margin: 0;
+    text-shadow: 1.3px 0.8px #7A94B5;
+}
+
+.q-author {
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+/* about styles */
+#team h2, #tasks h3 {
     background-color: transparent;
     margin-bottom: -4px;
     margin-top: 0;
@@ -354,7 +374,7 @@ h2 {
     text-transform: capitalize;
 }
 
-#team h3 {
+#team h3, #tasks h4 {
     font-size: 8pt;
     font-weight: bold;
     margin: 0;
@@ -363,7 +383,7 @@ h2 {
     text-transform: uppercase;
 }
 
-#team p {
+#team p, .tasks-inner p {
     margin: 0;
     padding: 8px;
     text-align: justify;
@@ -386,7 +406,7 @@ h2 {
 
 .item {
     margin: 0 auto;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -411,6 +431,47 @@ h2 {
 		flex-basis:33.333333%;
 	}
 }
+
+/* story styles */
+#story {
+    background-color: rgba(140,198,209, 0.15);
+    padding-bottom: 70px;
+}
+
+#story p {
+    text-align: justify;
+}
+
+/* tasks styles */
+#tasks h2, #story h2 {
+    background-color: transparent;
+    margin-bottom: -4px;
+    margin-top: 0;
+    padding-bottom: 0;
+    text-align: right;
+}
+
+#tasks p {
+    margin-top: 0;
+    text-align: justify;
+}
+
+#tasks h3 {
+    font-size: 25px;
+}
+
+.tasks-inner {
+    background-color: rgba(140,198,209, 0.15);
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 0 5%;
+    padding-top: 35px;
+    height: 100%;
+    overflow: auto;
+}
+
+/* contact styles */
+
 
 /* footer styles */
 #footer {
