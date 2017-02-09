@@ -128,7 +128,6 @@ h2 {
     }
 }
 
-
 @media (max-width: 907px) {
 	.nav-links {
 		float: none;
@@ -264,26 +263,15 @@ h2 {
 }
 
 #background p {
+    margin: 10px;
     margin-top: 0;
     text-align: justify;
 }
 
-.secondlife {
-    float:left;
-    width: 50%;
-}
-
-.secondlife p {
-    padding-right: 10px;
-}
-
-.immersive {
-    overflow: hidden;
-    width: 50%;
-}
-
-.immersive p {
-    padding-left: 10px;
+@media (min-width: 768px) {
+	.background-column {
+		flex-basis: 50%;
+	}
 }
 
 /* discover styles */
@@ -299,7 +287,7 @@ h2 {
     margin-bottom: 0;
 }
 
-.discover-one, .discover-two {
+.discover-one, .discover-two, .discover-three, .discover-four {
     background-color: black;
     height: 325px;
     margin: 10px;
@@ -341,8 +329,22 @@ h2 {
     margin: 0;
 }
 
-.discover-two, .discover-three, .discover-four {
+.discover-two  {
     background: url('img/discover-2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.discover-three {
+    background: url('img/discover-3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.discover-four {
+    background: url('img/discover-4.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -373,7 +375,7 @@ h2 {
     font-size: 24pt;
     font-weight: 100;  
     text-align: center;
-    padding: 50px 30px;
+    padding: 50px 0;
 }
 
 #quote p {
@@ -465,7 +467,37 @@ h2 {
 }
 
 #story p {
+    margin-top: 0;
     text-align: justify;
+}
+
+.story-one, .story-two {
+    background-color: black;
+    height: 325px;
+    margin: 10px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.story-one {
+    background: url('img/story2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.story-two  {
+    background: url('img/story3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.story-img {
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 4px;
+    max-width: 100%;
 }
 
 /* tasks styles */
@@ -502,7 +534,6 @@ h2 {
 
 /* contact styles */
 #contact {
-	padding-top: 105px;
 	overflow: auto;
 }
 
