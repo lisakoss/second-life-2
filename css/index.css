@@ -306,24 +306,39 @@ h2 {
     width: 100%;
 }
 
-.img-text {
-    background-color: rgba(140,198,209, 0.75);
-    color: #FFFFFF;
-    position: relative;
-    bottom: -300px;
-    padding: 5px 10px;
+.img-holder {
+    width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.img-holder h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: rgba(65, 55, 91, 0.8);
+  color: white;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  margin: 0;
+  text-align: center;
 }
 
 .discover-one {
     background: url('img/discover-1.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 .discover-two {
     background: url('img/discover-2.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 .discover-column {
@@ -475,7 +490,78 @@ h2 {
 }
 
 /* contact styles */
+#contact {
+	padding-top: 105px;
+	overflow: auto;
+}
 
+.contact-inputs {
+	vertical-align: top;
+	clear: both;
+	overflow: auto;
+	margin: 0 0 50px 0;
+}
+
+.contact-inputs p {
+	margin: 0;
+	text-align: justify;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+.contact-buttons {
+	float: right;
+}
+
+#contact textarea {
+	background-color: #F7F7F7;
+	font-size: 13px;
+	letter-spacing: 1px;
+	height: 150px;
+	padding: 15px;
+	border: none;
+	resize: none;
+	display: block;
+	width: 55%;
+	float: right;
+	clear: both;
+	border-radius: 5px;
+	margin-left: 35px;
+}
+
+#contact input {
+	background-color: #F7F7F7;
+	font-size: 13px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	border: none;
+	padding: 15px;
+	width: 100%;
+}
+
+#contact input[type=submit], #contact input[type=reset] {
+	width: 110px;
+	float: right;
+	display: block;
+	background-color: #85BDC8;
+	font-size: 10px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffffff;
+	border: none;
+	margin: 10px auto;
+	padding: 15px;
+	margin-left: 10px;
+	border-radius: 5px;
+    transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s; 
+}
+
+#contact input[type=submit]:hover, #contact input[type=reset]:hover {
+	background-color: #93A6A5;
+}
 
 /* footer styles */
 #footer {
