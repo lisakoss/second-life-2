@@ -410,6 +410,10 @@ a:hover {
 }
 
 /* about styles */
+#team {
+    padding-bottom: 40px; 
+}
+
 #team h2, #tasks h3 {
     background-color: transparent;
     margin-bottom: -4px;
@@ -451,7 +455,7 @@ a:hover {
 
 .item {
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
