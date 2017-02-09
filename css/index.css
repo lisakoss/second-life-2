@@ -45,6 +45,23 @@ h2 {
     width: 100%;
 }
 
+a:link, .nav-links a:visited, .nav-links a:active, .nav-links a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s; 
+}
+
+a:hover {
+	color: #95989A;
+	transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s; 
+}
+
 /* banner styles */
 #home {
 	width: 100%;
@@ -441,21 +458,27 @@ h2 {
 	flex-wrap: wrap;
 }
 
-.about-column {
+.about-column, .task-column {
 	flex-basis: 100%;
 	display: flex;
 }
 
 @media (min-width: 768px) {
-	.about-column {
+	.about-column, .task-column {
 		flex-basis: 50%;
 	}
 }
 
 @media (min-width: 1200px) {
-    .about-column {
+    .about-column, .task-column {
 		flex-basis:33.333333%;
 	}
+}
+
+@media (max-width: 1200px) {
+    .tasks-inner > div > div:last-child {
+        flex: 0 1 100%;
+    }
 }
 
 /* story styles */
