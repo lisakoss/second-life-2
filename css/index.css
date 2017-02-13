@@ -244,37 +244,37 @@ a:hover {
 }
 
 @media (min-width: 657px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 85px;
     }
 }
 
 @media (max-width: 656px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 135px;
     }
 }
 
 @media (max-width: 370px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 160px;
     } 
 }
 
 @media (max-width: 289px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 190px;
     } 
 }
 
 @media (max-width: 229px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 230px;
     } 
 }
 
 @media (max-width: 206px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 270px;
     } 
 }
@@ -524,7 +524,7 @@ a:hover {
 }
 
 /* tasks styles */
-#tasks h2, #story h2 {
+#tasks h2, #story h2, #update h2 {
     background-color: transparent;
     margin-bottom: -4px;
     margin-top: 0;
