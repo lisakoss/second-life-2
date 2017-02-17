@@ -211,8 +211,8 @@ a:hover {
     text-transform: none;
     font-variant: small-caps;
     background-color: #93A6A5;
-    font-size: 12pt;
-    width: 120px;
+    font-size: 10pt;
+    width: 140px;
     margin: 0 auto;
     padding: 8px;
     padding-top: 3px;
@@ -228,7 +228,7 @@ a:hover {
     margin: 0 auto;
     margin-top: 12px;
     padding: 1px 0px;
-    width: 138px;
+    width: 158px;
 }
 
 /* background styles */
@@ -244,37 +244,37 @@ a:hover {
 }
 
 @media (min-width: 657px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 85px;
     }
 }
 
 @media (max-width: 656px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 135px;
     }
 }
 
 @media (max-width: 370px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 160px;
     } 
 }
 
 @media (max-width: 289px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 190px;
     } 
 }
 
 @media (max-width: 229px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 230px;
     } 
 }
 
 @media (max-width: 206px) {
-    #background, #team, #story, #tasks, #contact {
+    #background, #team, #story, #tasks, #contact, #update {
         padding-top: 270px;
     } 
 }
@@ -432,12 +432,22 @@ a:hover {
     text-transform: uppercase;
 }
 
-#team p, .tasks-inner p {
+#team p {
     margin: 0;
     padding: 8px;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
+}
+
+.tasks-inner p {
+    margin: 0;
+    padding: 8px;
+    text-align: justify;
+}
+
+.tasks-inner strong {
+    color: #93B1AF; 
 }
 
 .alt-color1 {
@@ -514,7 +524,7 @@ a:hover {
 }
 
 .story-two  {
-    background: url('img/story3.jpeg');
+    background: url('img/story3.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -528,13 +538,23 @@ a:hover {
 }
 
 /* tasks styles */
-#tasks h2, #story h2 {
+#tasks h2, #story h2, #update h2 {
     background-color: transparent;
     margin-bottom: -4px;
     margin-top: 0;
     padding-bottom: 0;
     text-align: right;
 }
+
+#update h3 {
+    background-color: transparent;
+    margin-bottom: -4px;
+    margin-top: 20px;
+    padding-bottom: 0;
+    text-align: left;
+    font-size: 18pt;
+}
+
 
 #tasks p {
     margin-top: 0;
