@@ -432,12 +432,22 @@ a:hover {
     text-transform: uppercase;
 }
 
-#team p, .tasks-inner p {
+#team p {
     margin: 0;
     padding: 8px;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
+}
+
+.tasks-inner p {
+    margin: 0;
+    padding: 8px;
+    text-align: justify;
+}
+
+.tasks-inner strong {
+    color: #93B1AF; 
 }
 
 .alt-color1 {
