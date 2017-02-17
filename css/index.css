@@ -72,7 +72,7 @@ a:hover {
 }
 
 .home-image {
-	background-image: url('img/index_img.jpeg');
+	background-image: url('img/indeximg.png');
     position: 50% 50% !important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -340,7 +340,7 @@ a:hover {
 }
 
 .discover-one {
-    background: url('img/discover-1.jpeg');
+    background: url('img/discover1.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -507,7 +507,7 @@ a:hover {
 }
 
 .story-one {
-    background: url('img/story2.jpeg');
+    background: url('img/story2.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
