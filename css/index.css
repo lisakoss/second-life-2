@@ -546,6 +546,12 @@ a:hover {
     text-align: right;
 }
 
+#tasks .inner-container img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
 #update h3 {
     background-color: transparent;
     margin-bottom: -4px;
