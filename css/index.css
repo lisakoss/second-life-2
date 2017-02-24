@@ -552,6 +552,13 @@ a:hover {
     display: block;
 }
 
+#tasks .tasks-rules .inner-container img {
+    width: 46%;
+    display: inline;
+    padding: 1%;
+    margin: 0;
+}
+
 #update h3 {
     background-color: transparent;
     margin-bottom: -4px;
@@ -579,6 +586,16 @@ a:hover {
     padding-top: 35px;
     height: 100%;
     overflow: auto;
+}
+
+.tasks-rules {
+    background-color: #3B3B3B;
+    margin: 0 auto;
+    padding: 0 5%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    height: 100%;
+    overflow: auto; 
 }
 
 .met {
