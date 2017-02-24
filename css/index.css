@@ -347,21 +347,21 @@ a:hover {
 }
 
 .discover-two  {
-    background: url('img/discover-2.jpeg');
+    background: url('img/discover2.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
 }
 
 .discover-three {
-    background: url('img/discover-3.png');
+    background: url('img/discover3.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
 }
 
 .discover-four {
-    background: url('img/discover-4.jpeg');
+    background: url('img/discover4.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -517,7 +517,7 @@ a:hover {
 }
 
 .story-one {
-    background: url('img/story3.png');
+    background: url('img/story4.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
