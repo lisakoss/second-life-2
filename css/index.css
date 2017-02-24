@@ -11,6 +11,10 @@ html, body {
     width: 100%;   
 }
 
+strong {
+    color: #93B1AF;
+}
+
 .container {
     width: 90%;
 }
