@@ -15,6 +15,21 @@ strong {
     color: #93B1AF;
 }
 
+table {
+    text-align: center;
+    margin: 0 auto;
+}
+
+th {
+    border-bottom: 1px solid rgba(140,198,209, 1.0);
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+
+td {
+    font-weight: bold;
+}
+
 .container {
     width: 90%;
 }
