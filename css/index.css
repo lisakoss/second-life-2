@@ -587,7 +587,6 @@ a:hover {
     font-size: 18pt;
 }
 
-
 #tasks p {
     margin-top: 0;
     text-align: justify;
@@ -608,13 +607,21 @@ a:hover {
 }
 
 .tasks-rules {
-    background-color: #3B3B3B;
     margin: 0 auto;
     padding: 0 5%;
     padding-top: 35px;
     padding-bottom: 35px;
     height: 100%;
     overflow: auto; 
+}
+
+#tasks .tasks-rules .inner-container h3{
+    text-align: left !important;
+    text-transform: uppercase;
+}
+
+#tasks .tasks-rules .inner-container ol {
+    margin-top: 0;
 }
 
 .met {
