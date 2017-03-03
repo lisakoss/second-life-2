@@ -262,6 +262,20 @@ a:hover {
     text-align: right;
 }
 
+#background h4 {
+    font-size: 24px;
+    background-color: transparent;
+    margin-bottom: -4px;
+    margin-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.brand {
+    margin: 0 !important;
+}
+
 @media (min-width: 657px) {
     #background, #team, #story, #tasks, #contact, #update {
         padding-top: 85px;
