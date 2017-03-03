@@ -642,6 +642,14 @@ a:hover {
     text-align: left !important;
 }
 
+.met2 {
+    text-align: right !important;
+}
+
+.brand {
+    text-align: justify;
+}
+
 /* contact styles */
 #contact {
 	overflow: auto;
