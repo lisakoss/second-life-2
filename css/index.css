@@ -274,6 +274,7 @@ a:hover {
 
 .brand {
     margin: 0 !important;
+    text-align: justify;
 }
 
 @media (min-width: 657px) {
@@ -644,10 +645,6 @@ a:hover {
 
 .met2 {
     text-align: right !important;
-}
-
-.brand {
-    text-align: justify;
 }
 
 /* contact styles */
