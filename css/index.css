@@ -646,6 +646,10 @@ a:hover {
     overflow: auto; 
 }
 
+.tasks-rules ul {
+    margin-top: 0;
+}
+
 #tasks .tasks-rules .inner-container h3{
     text-align: left !important;
     text-transform: uppercase;
