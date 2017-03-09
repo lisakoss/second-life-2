@@ -11,6 +11,23 @@ html, body {
     width: 100%;   
 }
 
+sup {
+    font-size: 10px;
+    color: #505050;
+    transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s; 
+}
+
+sup:hover {
+    color: #ffffff;
+    transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s; 
+}
+
 strong {
     color: #93B1AF;
 }
