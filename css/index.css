@@ -530,6 +530,11 @@ a:hover {
 	display: flex;
 }
 
+.role {
+    padding-top: 0px !important;
+}
+
+
 @media (min-width: 768px) {
 	.about-column, .task-column {
 		flex-basis: 50%;
